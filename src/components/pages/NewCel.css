@@ -1,0 +1,14 @@
+.create_tittle{
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+.form_container{
+  background-color: rgba(128, 128, 128, 0.433);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  border-radius: 40px;
+}

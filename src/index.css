@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Macondo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+
+html,
+body,
+#root {
+  background-image: url('https://img.freepik.com/fotos-gratis/elemento-de-design-de-textura-de-fundo-branco-em-branco_53876-132773.jpg?w=1800&t=st=1660147017~exp=1660147617~hmac=86894e84c48d310554b0cea2281d9724807ea7e0f06a105f9c4a6b457e59c5a1');
+  background-blend-mode: overlay;
+  background-color: #c7c7c7;
+  
+}

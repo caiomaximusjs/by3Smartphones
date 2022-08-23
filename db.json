@@ -1,0 +1,68 @@
+{
+  "celulares": [
+    {
+      "id": 1,
+      "marca": "Samsung",
+      "modelo": "Galaxy S22 Ultra 5G Preto",
+      "specs": "8gb / 256gb",
+      "preco": 7999,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/331116-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 4,
+      "marca": "Samsung",
+      "modelo": "Galaxy A53 5G Preto",
+      "specs": "4gb / 128gb",
+      "preco": 1599,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/324831-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 5,
+      "marca": "Samsung",
+      "modelo": "Galaxy S20 FE 5G Violeta",
+      "specs": "12gb / 512gb",
+      "preco": 5999,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/337314-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 6,
+      "marca": "Samsung",
+      "modelo": "Galaxy M13 Azul",
+      "specs": "8gb / 256gb",
+      "preco": 1299,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/338779-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 7,
+      "marca": "Samsung",
+      "modelo": "Galaxy M23 5G Branco",
+      "specs": "8gb / 128gb",
+      "preco": 1133,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/337742-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 8,
+      "marca": "Samsung",
+      "modelo": "Galaxy A03 Core Preto",
+      "specs": "8gb / 128gb",
+      "preco": 1674,
+      "imagem": "https://Samsungbr.vtexassets.com/arquivos/ids/333201-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 9,
+      "marca": "Samsung",
+      "modelo": "Galaxy A73 5G Cinza",
+      "specs": "8gb / 256gb",
+      "preco": 2499,
+      "imagem": "https://samsungbr.vtexassets.com/arquivos/ids/326688-800-auto?width=800&height=auto&aspect=true"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy A33 5G Preto",
+      "specs": "16gb/128gb",
+      "imagem": "https://samsungbr.vtexassets.com/arquivos/ids/333396-800-auto?width=800&height=auto&aspect=true",
+      "preco": "2200",
+      "id": 10
+    }
+  ]
+}

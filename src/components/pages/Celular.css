@@ -1,0 +1,149 @@
+.details_main{
+  margin-top: 100px;
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  margin-bottom: 100px;
+}
+
+.details_img_imagem{
+width: 550px;
+margin-top: 80px;
+}
+
+.details_imagem{
+  width: 50%;
+}
+
+.details_modelo{
+margin-top: 80px;
+font-size: 45px;
+}
+
+.details_marca{
+font-size: 25px;
+font-weight: 600;
+margin-top: 10px;
+
+}
+
+
+
+.details_parcelas{
+  text-align: start;
+  margin-top: 20px;
+}
+
+.details_parcelas p{
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.details_parcelas p i{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.frete{
+  margin-top: 20px;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.frete i{
+  margin-right: 10px;
+}
+
+.seguro{
+  margin-top: 10px;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.seguro i{
+  margin-right: 15px;
+  margin-left: -25px;
+}
+
+.details_preco{
+  margin-top: 10px;
+font-size: 35px;
+font-weight: 700;
+}
+
+.details_vista{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.button_editar{
+  margin-top: 10px;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  background-color: white;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+
+}
+
+.button_editar:hover{
+  background-color: gray;
+}
+
+.icone{
+  margin-right: 15px;
+  margin-left: -38px;
+}
+
+.formulario{
+  background-color: rgba(128, 128, 128, 0.433);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  border-radius: 0px;  
+  margin-top: 150px;
+}
+
+.tittle_editar{
+text-align: center;
+margin: 40px;
+font-weight: 600;
+font-size: 35px;
+}
+
+.button_fechar{
+  background-color: red;
+  color: white;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  border: none;
+  margin-left: 1100px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+ 
+}
+
+.button_fechar:hover{
+  background-color: rgb(157, 3, 3);
+}

@@ -1,0 +1,132 @@
+img {
+  width: 250px
+}
+h4{
+  font-size: 19px;
+}
+
+.cel_card{
+
+ background-color: white;
+ width: 350px;
+ text-align: center;
+ margin: 30px;
+ padding: 15px;
+ opacity: 75%;
+ box-shadow: 2px 2px 2px 2px rgba(105, 105, 105, 0.375);
+ transition: .3s ease-in-out;
+ cursor: pointer;
+}
+
+.cel_card:hover{
+  transform: scale(1.01);
+  opacity: 100%;
+}
+
+.marca{
+font-weight: 300;
+}
+
+.preco{
+font-size: 22px;
+font-weight: 700;
+color: black;
+}
+
+.ver_mais{
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  transition: .4s ease-in-out;
+  list-style: none;
+  margin-top: 10px;
+  
+}
+
+.ver_mais:hover{
+background-color: rgb(43, 43, 43);
+
+}
+
+.vista{
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+}
+.modal_specs{
+  margin-bottom: 20px;
+}
+.modal_preco{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.modal_imagem{
+width: 400px;
+}
+
+.titulo_fechar{
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  cursor: pointer;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
+.button_excluir{
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  transition: .4s ease-in-out;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.button_excluir:hover{
+  background-color: rgb(43, 43, 43);
+}
+
+.delete_buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button_delete{
+  font-size: 18px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  width: 40%;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.button_delete:hover{
+  background-color: rgb(43, 43, 43);
+}
