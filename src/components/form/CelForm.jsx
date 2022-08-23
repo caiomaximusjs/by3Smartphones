@@ -9,12 +9,10 @@ export default function CelForm({ handleSubmit, celData }) {
   const submit = (e) => {
     e.preventDefault();
     handleSubmit(cel);
-    
   };
 
   function handleChange(e) {
     setCel({ ...cel, [e.target.name]: e.target.value });
-    
   }
 
   return (

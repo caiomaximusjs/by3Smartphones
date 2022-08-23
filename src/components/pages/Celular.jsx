@@ -49,7 +49,6 @@ export default function Celular() {
 
   return (
     <div>
-
       {!formulario ? (
         <div className="details_main">
           <div className="details_imagem">
@@ -103,30 +102,25 @@ export default function Celular() {
             <p className="seguro">
               <i class="bi bi-shield-shaded"></i> Seguro
             </p>
-            <button className="button_editar"onClick={toggleProjectForm}>
-              <BsFillPencilFill 
-              className='icone'/>
+            <button className="button_editar" onClick={toggleProjectForm}>
+              <BsFillPencilFill className="icone" />
               {!formulario ? 'Editar' : 'X'}
             </button>
           </div>
         </div>
       ) : (
-        <div className='formulario'>
-
+        <div className="formulario">
           <button className="button_fechar" onClick={toggleProjectForm}>
-              {!formulario ? 'Editar' : 'X'}
-            </button>
-          <h2 className='tittle_editar'>Editar Celular</h2>
-        <CelForm
-          className="formulario"
-          handleSubmit={editPost}
-          Text="Concluir edição"
-          celData={celular}
-          
-        />
-        
+            {!formulario ? 'Editar' : 'X'}
+          </button>
+          <h2 className="tittle_editar">Editar Celular</h2>
+          <CelForm
+            className="formulario"
+            handleSubmit={editPost}
+            Text="Concluir edição"
+            celData={celular}
+          />
         </div>
-        
       )}
     </div>
   );

@@ -10,7 +10,15 @@ import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root');
 
-export default function CelCard({ modelo, marca, specs, preco, imagem, id, handleRemove }) {
+export default function CelCard({
+  modelo,
+  marca,
+  specs,
+  preco,
+  imagem,
+  id,
+  handleRemove,
+}) {
   let subtitle;
 
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -38,8 +46,8 @@ export default function CelCard({ modelo, marca, specs, preco, imagem, id, handl
   }
 
   function remove(e) {
-    e.preventDefault()
-    handleRemove(id)
+    e.preventDefault();
+    handleRemove(id);
   }
 
   const customStyles = {
@@ -108,25 +116,28 @@ export default function CelCard({ modelo, marca, specs, preco, imagem, id, handl
               <p className="ver_mais">Ver mais</p>
             </div>
           </Link>
-          <button className='button_excluir' onClick={handleOpenModalRemove}>
-          Excluir
-        </button>
-        <Modal
-          style={customStyles}
-          isOpen={modalRemove}
-          onRequestClose={handleCloseModalRemove}
-          onAfterOpen={afterOpenModal}
-        >
-        <h4>Tem certeza que deseja excluir esse celular ?</h4>
-        <div className='delete_buttons'>
-        <button className='button_delete' onClick={remove}>
-          Sim
-        </button>
-        <button  className='button_delete' onClick={handleCloseModalRemove}>
-          Não
-        </button>
-        </div>
-        </Modal>
+          <button className="button_excluir" onClick={handleOpenModalRemove}>
+            Excluir
+          </button>
+          <Modal
+            style={customStyles}
+            isOpen={modalRemove}
+            onRequestClose={handleCloseModalRemove}
+            onAfterOpen={afterOpenModal}
+          >
+            <h4>Tem certeza que deseja excluir esse celular ?</h4>
+            <div className="delete_buttons">
+              <button className="button_delete" onClick={remove}>
+                Sim
+              </button>
+              <button
+                className="button_delete"
+                onClick={handleCloseModalRemove}
+              >
+                Não
+              </button>
+            </div>
+          </Modal>
         </Modal>
       </div>
     </div>
