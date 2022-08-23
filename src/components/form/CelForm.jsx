@@ -25,7 +25,7 @@ export default function CelForm({ handleSubmit, celData }) {
         name="marca"
         placeholder="ex: Samsung, Xiaomi, Apple..."
         handleOnChange={handleChange}
-        value={cel.marca ? cel.marca : 'sabor'}
+        value={cel.marca ? cel.marca : ''}
       />
       <Input
         type="text"
